@@ -58,7 +58,7 @@ delete [] c;
     ```
     int c[10];
     ```
-    - a variável c armazena o endereli base do vetor.
+    - a variável c armazena o endereço base do vetor.
     - Nesse caso, c é um ponteiro
 - O mesmo ocorre na alocação finâmica:
     ```
