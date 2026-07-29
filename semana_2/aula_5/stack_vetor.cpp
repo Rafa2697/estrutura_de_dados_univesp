@@ -2,10 +2,10 @@
 #include <iostream>
 using namespace std;
 
-Stack::Stack()
+Stack::Stack() 
 {
   length = 0;
-  structure = new ItemType[MAX_ITEMS];
+  structure = new ItemType[MAX_ITEMS]; // alocação dinâmica de memória para o vetor
 }
 
 Stack::~Stack()
@@ -13,12 +13,12 @@ Stack::~Stack()
   delete [] structure;
 }
 
-bool Stack::isEmpty() const
+bool Stack::isEmpty() const //Verifica se a pilha está vazia, retorna true se estiver vazia e false caso contrário
 {
   return (length == 0);
 }
 
-bool Stack::isFull() const
+bool Stack::isFull() const //Verifica se a pilha está cheia, retorna true se estiver cheia e false caso contrário
 {
   return (length == MAX_ITEMS);
 }
@@ -26,7 +26,7 @@ bool Stack::isFull() const
 void Stack::push(ItemType item)
 {
   if (!isFull()){
-    structure[length] = item;
+    structure[length] = item; // Adiciona o item no topo da pilha
     length++;
   } else {
     throw "Stack está cheia!";

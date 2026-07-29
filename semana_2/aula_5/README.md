@@ -2,7 +2,7 @@
 
 ![slide pilha](./image/slide_1.png)
 
-Uma **pilha** ´euma estrutura bastante útil, principalmente quando precisamos garantir alinhamento de componentes em processos. 
+Uma **pilha** é uma estrutura bastante útil, principalmente quando precisamos garantir alinhamento de componentes em processos. 
 -   chamada de funções na execução de programas.
 -   Análise de sintaxe de linguagens de programação
 -   verificação de alinhamento de parênteses em string
