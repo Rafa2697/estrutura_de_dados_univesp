@@ -1,5 +1,5 @@
 #include "stack.h"
-#include <cstddef> // Para funcionar o NULL
+#include <stddef.h> // Para funcionar o NULL
 #include <new>
 
 #include <iostream>
