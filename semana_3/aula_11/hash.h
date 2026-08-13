@@ -15,7 +15,7 @@ class Hash{
         int getHash(Aluno aluno) const; // Retorna o índice do aluno na tabela
         int max_items; // Número máximo de itens na tabela
         int length; // Tamanho da tabela
-        Aluno* structure; // Tabela de alunos
+        Aluno* structure; // Tabela de alunos em vetor 
 
 
 };
