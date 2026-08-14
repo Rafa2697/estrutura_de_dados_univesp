@@ -37,3 +37,16 @@ As tentativas continuam até se encontrar um endereço que aceite o novo item.
 -   A solução será fazer co que o **deleteItem** naõ remova o elemento, mas substitua por um marcador "disponível".
 -   Nesse caso, as buscas pela chave **k** podem pular pelos endereços "disponíveis" e continuar até encontrar a chave ou uma célula vazia. 
 -   A operação **insertItem** pode usar os endereços "diponíveis" para inserir entradas. 
+
+O teste linear agrupa os elementos em posições contínuas. As pesquisas podem se tornar lentar. 
+
+## Teste Quadrático
+Outra estratégia de agrupamento é o **Teste Quadratico**, que teste posições **A[(i+f(j)) mod N]**.
+- j = 0,1,2,...
+- f(j) = j²
+
+Isso evita o agrupamento sequencial, mas cria novos padroes de agrupamento. 
+
+Se **N** não for primo, então o teste quadrático poderia falhar em encontrar uma posição, mesmo havendo posições livres no arranjo. 
+
+[Video aula sobre tratamento de colisões.](https://www.youtube.com/watch?v=KG0aNfv_MuE)
