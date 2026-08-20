@@ -91,7 +91,7 @@ float* myMoney = new float;
 - Qualquer operação que pode ser aplicada a uma veriável do tipo ***float*** pode ser aplicada a _*money_.
 - Qualquer operação que pode ser aplicada a uma veriável do tipo ***bool*** pode ser aplicada a _*truth_.
 
-##Cuiados com Ponteiros
+## Cuiados com Ponteiros
 > [!IMPORTANT]
 > As duas operações a seguir são completamente diferentes.
 - Na primeira, o conteúdo de mamória apontado por money é copiado para a região apontada or myMoney.
