@@ -7,7 +7,7 @@ class Aluno {
         std::string nome;
 
     public:
-        Aluno();
+        Aluno(); // Construtor padrão
         Aluno(int ra, std::string nome);
         string getNome() const;
         int getRa() const;

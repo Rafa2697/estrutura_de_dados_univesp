@@ -1,9 +1,8 @@
-#include <iostream>
-using namespace std;
+
 #include "aluno.h"
 
 Aluno::Aluno(){
-    this->ra - -1;
+    this->ra = -1;
     this->nome = "";
 }
 Aluno::Aluno(int ra, std::string nome){
