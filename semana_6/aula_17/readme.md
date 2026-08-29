@@ -14,10 +14,10 @@ Um Grafo **G = (V, E) é uma estrutura formada por um conjunto V = {v1, v2, ... 
 
 ## Formas de representação
 
-![alt text]({DD141F81-5D35-4BC2-9F0E-CAE0281BBB34}.png)
-![alt text]({98E6820B-CEB6-4051-9817-A7835E4E4A86}.png)
-![alt text]({B7E6022D-B31E-43AD-841D-9DEBA7CDD807}.png)
-![alt text]({DC3B4FBC-E9DD-46BC-8623-B5DB46AFA1E9}.png)
+![alt text](./image/{DD141F81-5D35-4BC2-9F0E-CAE0281BBB34}.png)
+![alt text](./image/{98E6820B-CEB6-4051-9817-A7835E4E4A86}.png)
+![alt text](./image/{B7E6022D-B31E-43AD-841D-9DEBA7CDD807}.png)
+![alt text](./image/{DC3B4FBC-E9DD-46BC-8623-B5DB46AFA1E9}.png)
 
 ## Vatagens e desvantagens
-![alt text]({25762067-3A5E-4182-825A-165D50679251}.png)
+![alt text](./image/{25762067-3A5E-4182-825A-165D50679251}.png)
